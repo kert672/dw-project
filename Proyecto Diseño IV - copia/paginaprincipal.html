@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Grand Roatan</title>
+      <link rel="stylesheet" href="estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+  
+  <body>
+    <button onclick="window.history.back()">Go back</button>
+    <h1>Ven y disfruta en Grand Roatan :) </h1>
+    <section class="Section Beach">
+      <img
+        src="img/img1.jpeg"
+        title="Vista-1"
+        class="img"
+        data-id="1"
+        alt="Vista-1"
+      />
+      <img
+        src="img/img2.jpeg"
+        title="Vista-2"
+        class="img"
+        data-id="2"
+        alt="Vista-2"
+      />
+      <img
+        src="img/img3.jpeg"
+        title="Vista-3"
+        class="img"
+        data-id="3"
+        alt="Vista-3"
+      />
+      <img
+        src="img/img4.jpeg"
+        title="Vista-4"
+        class="img"
+        data-id="4"
+        alt="Vista-4"
+      />
+      <img
+        src="img/img5.jpeg"
+        title="Vista-5"
+        class="img"
+        data-id="5"
+        alt="Vista-5"
+      />
+      <img
+        src="img/img6.jpeg"
+        title="Vista-6"
+        class="img"
+        data-id="6"
+        alt="Vista-6"
+      />
+    </section>
+    
+    <section class="Section Food">
+      <img
+        src="img/img7.jpeg"
+        title="FB-1"
+        data-id="1"
+        class="img"
+        alt="FB-1"
+      />
+      <img
+        src="img/img8.jpeg"
+        title="FB-2"
+        data-id="2"
+        class="img"
+        alt="FB-2"
+      />
+      <img
+        src="img/img9.jpeg"
+        title="FB-3"
+        data-id="3"
+        class="img"
+        alt="FB-3"
+      />
+      <img
+        src="img/img10.jpeg"
+        title="FB-4"
+        data-id="4"
+        class="img"
+        alt="FB-4"
+      />
+      <img
+        src="img/img11.jpeg"
+        title="FB-5"
+        data-id="5"
+        class="img"
+        alt="FB-5"
+      />
+    </section>
+
+    
+    <div class="modal">
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-content">
+        
+        <button class="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <img src="img/img7.jpeg" class="main-img" alt="" />
+        <h3 class="image-name">image name</h3>
+        <div class="modal-images">
+          <img
+            src="img/img7.jpeg"
+            title="FB-1"
+            id="1"
+            class="modal-img"
+            alt=""
+          />
+          <img
+            src="img/img8.jpeg"
+            title="FB-2"
+            id="2"
+            class="modal-img selected"
+            alt=""
+          />
+        
+        </div>
+      </div>
+    </div>
+    <script src="principal.js"></script>
+  </body>
+</html>
